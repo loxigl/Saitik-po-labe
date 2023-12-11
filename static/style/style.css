@@ -1,0 +1,224 @@
+.navbar{
+    border-radius: 10000px;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1;
+    position:relative;
+    border-left: 18px solid transparent;
+    margin-left: -10px;
+    margin-top:-10px;
+    display:inline-flex;
+}
+.Herosel{
+    margin-left: 7%;
+}
+body{
+    z-index: 2;
+    background-image: url(ver.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+}
+::-webkit-scrollbar {
+    width: 0;
+  }
+@font-face {
+    font-family: Tana Uncial SP;
+    src: url(TanaUncialSP.otf);
+    font-family: Neillgates;
+    src: url(Neillgates.ttf);
+}
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 10ch;
+}
+h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2ch;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 5ch; 
+}
+.orange{
+    color: orange;
+}
+p{
+    text-align: left;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:3cap;
+}
+li{
+    text-align: left;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:2cap; 
+}
+.text{
+    text-indent: 5%;
+}
+.block{
+    z-index: 1;
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.495);
+    text-align: center;
+}
+.classsel{
+    display:inline-flex;
+    margin-left: -35%;
+}
+.role{
+    margin-left: 35%;
+}
+.hero{
+    display: inline-flex;
+    width: 100%;    
+}
+.hero_inf{
+    display:inline-flex;
+}
+.perks{
+    margin-left: 45%;
+}
+.hero_skill{
+    display: inline-flex;
+    margin-left:-50%;
+    width: 50%;
+}
+.hero_passive{
+    display: inline-flex;
+    width: 50%;
+    margin-left:50%;
+    margin-top: 0%;
+}
+.grailtask{
+    display: inline-flex;
+}
+.lvl{
+    display: inline-flex;
+}
+.talent{
+    width: 33%;
+    border-style: solid;
+    border-color: rgba(255, 166, 0, 0.484);
+    border-width: 0.3ch;
+}
+.talent_text{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.grail{
+    width: 20%;
+    border-style: solid;
+    border-color: rgba(255, 166, 0, 0.484);
+    border-width: 0.3ch;
+}
+
+#mercenary{
+    background-image: url("../img/Markus Kruber/Mercenary/Mercenary_paced_strikes.webp");
+    width: 77px;
+    height: 77px;
+}
+#huntsman{
+    background-image: url("../img/Markus Kruber/Huntsman/Huntsman_passive.webp");
+    width: 77px;
+    height: 77px;
+}
+#foot_knight{
+    background-image: url("../img/Markus Kruber/Foot Knight/Foot_knight_protective_presence.webp");
+    width: 77px;
+    height: 77px;
+}
+#grail_knight{
+    background-image: url("../img/Markus Kruber/Grail Knight/GK-passive.webp");
+    width: 77px;
+    height: 77px;
+}
+#veteran{
+    background-image: url("../img/Bardin Goreksson/Ranger Veteran/Ranger_veteran_survivalist.webp");
+    width: 77px;
+    height: 77px;
+}
+#ironbreaker{
+    background-image: url("../img/Bardin Goreksson/Ironbreaker/Ironbreaker_gromril_armour.webp");
+    width: 77px;
+    height: 77px;
+}
+#slayer{
+    background-image: url("../img/Bardin Goreksson/Slayer/Slayer_trophy_hunter.webp");
+    width: 77px;
+    height: 77px;
+}
+#outcast_engineer{
+    background-image: url("../img/Bardin Goreksson/Outcast Engineer/OE-passive.webp");
+    width: 77px;
+    height: 77px;
+}
+#waystalker{
+    background-image: url("../img/Kerillian/Waystalker/Amaranthe.webp");
+    width: 77px;
+    height: 77px;
+}
+#handmaiden{
+    background-image: url("../img/Kerillian/Handmaiden/The_Dance_of_Seasons_new.webp");
+    width: 77px;
+    height: 77px;
+}
+#shade{
+    background-image: url("../img/Kerillian/Shade/Shade_murderous_prowess.webp");
+    width: 77px;
+    height: 77px;
+}
+#sister_of_the_thorn{
+    background-image: url("../img/Kerillian/Sister of the Thorn/Passive_SisterOfTheThorn.webp");
+    width: 77px;
+    height: 77px;
+}
+#witch_hunter{
+    background-image: url("../img/Victor Saltzpyre/Witch Hunter Captain/Animosity.webp");
+    width: 77px;
+    height: 77px;
+}
+#bounty_hunter{
+    background-image: url("../img/Victor Saltzpyre/Bounty Hunter/Bounty_hunter_blessed_shots.webp");
+    width: 77px;
+    height: 77px;
+}
+#zealot{
+    background-image: url("../img/Victor Saltzpyre/Zealot/Fiery_Faith.webp");
+    width: 77px;
+    height: 77px;
+}
+#warrior_priest_of_sigmar{
+    background-image: url("../img/Victor Saltzpyre/Warrior Priest of Sigmar/Passive_WarriorPriestOfSigmar.webp");
+    width: 77px;
+    height: 77px;
+}
+#battle_wizard{
+    background-image: url("../img/Sienna Fuegonasus/Battle Wizard/Battle_wizard_tranquility.webp");
+    width: 77px;
+    height: 77px;
+}
+#pyromancer{
+    background-image: url("../img/Sienna Fuegonasus/Pyromancer/Pyromancer_critical_mass.webp");
+    width: 77px;
+    height: 77px;
+}
+#unchained{
+    background-image: url("../img/Sienna Fuegonasus/Unchained/Unchained_blood_magic.webp");
+    width: 77px;
+    height: 77px;
+}
+#necromancer{
+    background-image: url("../img/Sienna Fuegonasus/Necromancer/Malediction_of_Nagash.webp");
+    width: 77px;
+    height: 77px;
+}
+
